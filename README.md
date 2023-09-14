@@ -1,1 +1,1 @@
-# Apple-Google-NLP-Sentiment-Analysis
+# Apple-and-Google-NLP-Sentiment-Analysis
