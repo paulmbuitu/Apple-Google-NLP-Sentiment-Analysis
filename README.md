@@ -2,13 +2,14 @@
 <img src="image\senti.jpg"/>
 
 # Table of contents
-1. [Business Understanding](#Business Understanding)
-2. [Data Understanding](#Data Understanding)
-3. [Data preparation](#Data preparation)
-4. [Exploratoy Analysis](#Exploratoy Analysis)
-5. [Modeling and Evaluation](#Modeling and Evaluation)
-6. Conclusions
-7. Recommendations
+1. Business Understanding
+2. Data Understanding
+3. Data preparation
+4. Exploratoy Analysis
+5. Modeling and Evaluation
+6. Results Summary
+7. Conclusions
+8. Recommendations
 
 -----
 ## Business understanding
@@ -67,13 +68,36 @@ Binary classification to predict whether a tweet falls under the "Positive" or "
 <img src="image/output 6.png"/>
 
 -----
-## 6. Conclusions
+## 6. Results Summary
+**1) Apple Sentiment Analysis:**
+
+* **Overwhelmingly Positive Sentiment:** Approximately **81.14%** of Apple-related tweets expressed **positive sentiments**, indicating a strong and favorable perception among users.
+
+* **Common Positive Themes:** Positive tweets often revolved around Apple stores, product excitement, community engagement at events like SXSW, and innovation.*
+
+* **Negative Sentiment Insights:** Negative tweets **(16.15%)** highlighted issues with Apple applications, battery concerns, design criticisms, autocorrect problems, and occasional references to other brands like Blackberry.
+
+**2) Google Sentiment Analysis:**
+
+* **Strong Positive Sentiment:** Around **82.08%** of Google-related tweets conveyed **positive sentiments**, emphasizing the positive outlook toward Google and its offerings.
+
+* **Common Positive Themes:** Positive discussions centered on Google's social networking platform, mapping services, mobile apps, product launches, and tech innovation.
+
+* **Negative Sentiment Insights:** Negative tweets **(14.95%)** featured mentions of Bing, map comparisons, location-related concerns, and occasional criticisms related to Google+.
+
+**3) Modeling and Classification:**
+
+* **Binary Classification:** A hyperparameter-tuned Multinomial Naive Bayes classifier exhibited enhanced precision (89.76%) and recall (79%) for negative sentiments, achieving a well-balanced performance for sentiment analysis.
+
+* **Multiclass Classification:** The untuned Random Forest classifier displayed the highest precision (66.27%) and exhibited promising results, particularly in distinguishing positive and neutral emotions.
+
+## 7. Conclusions
 * Both Apple and Google enjoy predominantly positive sentiments on Twitter, indicating strong brand perception.
 * Key positive topics for Apple include retail stores, product launches, and community engagement. Negative sentiments often relate to app and autocorrect issues.
 * For Google, positive discussions center around Google+, mapping services, and mobile apps. Negative sentiments occasionally touch upon Google Maps and location-based services.
 
 -----
-## 7. Recommendations
+## 8. Recommendations
 * Capitalize on the overwhelmingly positive sentiment around your brand and products. Highlight successful product launches, engage with the community, and promote events.
 
 * Pay close attention to common pain points mentioned in negative tweets. Continuously improve app functionality, battery performance, iPad's design, and autocorrect features for Apple. For Google, address concerns related to mapping services and location-based features.
