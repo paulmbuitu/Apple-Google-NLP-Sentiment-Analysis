@@ -1,12 +1,14 @@
 # Apple and Google NLP Twitter Sentiment Analysis
-<img src="image\Untitled-3.png"/>
+<img src="image\senti.jpg"/>
 
 # Table of contents
 1. [Business Understanding](#Business Understanding)
 2. [Data Understanding](#Data Understanding)
 3. [Data preparation](#Data preparation)
-4. [Modeling](#Modeling)
-5. [Evaluation](#Evaluation)
+4. [Exploratoy Analysis](#Exploratoy Analysis)
+5. [Modeling and Evaluation](#Modeling and Evaluation)
+6. Conclusions
+7. Recommendations
 
 -----
 ## Business understanding
@@ -18,22 +20,16 @@ The primary business problem that will be addressed is the need for a systematic
 ## Research Question
 * How do consumers perceive one company relative to the other?
 
+
 ## Main Objective
 The main objective of this project is to build a proof-of-concept NLP model that can accurately rate the sentiment of tweets about Apple and Google products. This model will enable businesses to gain real-time insights into how their products are perceived by the Twitter community.
 
 ## Specific Objectives
-* **Data Collection:** A dataset of tweets related to Apple and Google products will be gathered. This dataset should include tweets that express both positive and negative sentiments.
+* To identify key topics and themes within positive and negative tweets for both Apple and Google.
 
-* **Data Preprocessing:** Cleaning and preprocessing the collected data to prepare it for NLP analysis. This includes tasks like text normalization, tokenization, and handling of missing or irrelevant data.
+* To identify critical areas for enhancement in Apple and Google products.
 
-* **Model Development:** Developing a baseline NLP model for binary sentiment classification, categorizing tweets as either positive or negative. This model will serve as a starting point for further improvements.
-
-* **Model Evaluation:** Evaluating the binary sentiment classifier using appropriate metrics like accuracy, precision, recall, and F1-score. This will help assess the model's performance and identify areas for improvement.
-
-* **Multiclass Classification:** Extending the binary classifier to a multiclass classifier by incorporating a neutral sentiment category. This will provide a more nuanced understanding of sentiment.
-
-* **Business Insights:** Interpret the results and provide actionable insights to businesses.
-
+* To identify areas where one company may have a competitive advantage in public perception.
 ## Data Understanding
 The data was sourced from [here](https://data.world/crowdflower/brands-and-product-emotions). Contributors evaluated tweets about multiple brands and products. The crowd was asked if the tweet expressed positive, negative, or no emotion towards a brand and/or product. If some emotion was expressed they were also asked to say which brand or product was the target of that emotion.
 
@@ -50,7 +46,7 @@ The following analysis was performed on the data:
 * Analysis of keywords in positive tweets.
 <img src='image\output 1.png'/>
 * Analysis of keywords in negative tweets.
-<img src="image/output 2.png"/>
+<img src="image\wordnega.png"/>
 * Distribution of sentiments in Apple-related tweets.
 <img src="image/output 3.png"/>
 * Distribution of sentiments in Google-related tweets.
